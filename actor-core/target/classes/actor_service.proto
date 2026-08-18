@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_outer_classname = "ActorServiceProto";
+package com.man4fun.template.business.dubbo;
+
+message ServiceMsg{
+  int32 msgType = 1;
+  int64 clientMsgSeqNo = 2;
+  bytes body = 3;
+}
+
+message ServiceAck {
+  int32 code = 1;
+}
+
+message ServiceNotify{
+  int32 code = 1;
+  int64 userId = 2;
+  int32 serviceMsgType = 3;
+  int64 serverMsgSeqNo = 4;
+  bytes body = 5;
+}
+
+message ActorMsg{
+  string actorId = 1;
+  int32 msgType = 2;
+  bytes body = 3;
+}
+
+message ActorResponse{
+  int32 code = 1;
+}
+
+enum ActorMsgTypeEnum{
+  NONE = 0;
+  START = 1;
+  END = 2;
+  MIGRATION_SRC = 3;
+  MIGRATION_DST = 4;
+
+  LOGIN = 1000;
+}
+// 创建actor消息
+message ActorStartRequest{
+  int32 retryCount = 1;
+}
+// 销毁actor消息
+message ActorEndRequest{
+
+}
+// 迁移actor消息
+message ActorMigrationRequest{
+
+}
+
+message LoginRequest{
+  string token = 1;
+  string version = 2;
+}
+
+service PlayerService{
+  rpc HandleActorMsg(ActorMsg) returns (ActorResponse);
+}
+
+service GatewayService{
+  rpc Notify(ServiceNotify) returns (ActorResponse);
+}

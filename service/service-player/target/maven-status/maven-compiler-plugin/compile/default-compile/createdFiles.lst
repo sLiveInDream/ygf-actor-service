@@ -1,0 +1,10 @@
+com\man4fun\template\player\logic\PlayerActorMsgDispatcher.class
+com\man4fun\template\player\business\PlayerService.class
+com\man4fun\template\PlayerServiceStarter.class
+com\man4fun\template\player\data\DataSource.class
+com\man4fun\template\player\logic\component\ItemComponent.class
+com\man4fun\template\player\actor\ActorConfig.class
+com\man4fun\template\player\logic\component\MissionComponent.class
+com\man4fun\template\player\remote\RemoteService.class
+com\man4fun\template\player\actor\PlayerActor.class
+com\man4fun\template\player\logic\util\ItemUtil.class

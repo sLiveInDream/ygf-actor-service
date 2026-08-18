@@ -1,0 +1,52 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "mvn compile",
+      "type": "shell",
+      "command": "mvn",
+      "args": [
+        "compile"
+      ],
+      "group": "build",
+      "problemMatcher": "$maven"
+    },
+    {
+      "label": "mvn package",
+      "type": "shell",
+      "command": "mvn",
+      "args": [
+        "package",
+        "-DskipTests"
+      ],
+      "group": "build",
+      "problemMatcher": "$maven"
+    },
+    {
+      "label": "mvn compile service-player",
+      "type": "shell",
+      "command": "mvn",
+      "args": [
+        "-pl",
+        "service/service-player",
+        "-am",
+        "compile"
+      ],
+      "group": "build",
+      "problemMatcher": "$maven"
+    },
+    {
+      "label": "mvn compile gateway-service",
+      "type": "shell",
+      "command": "mvn",
+      "args": [
+        "-pl",
+        "gateway-service",
+        "-am",
+        "compile"
+      ],
+      "group": "build",
+      "problemMatcher": "$maven"
+    }
+  ]
+}

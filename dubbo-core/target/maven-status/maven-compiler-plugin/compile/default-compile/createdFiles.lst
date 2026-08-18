@@ -1,0 +1,3 @@
+com\man4fun\template\filter\ClearRouterCacheFilter.class
+com\man4fun\template\router\FixedRouterFactory.class
+com\man4fun\template\router\FixedStateRouter.class

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/actor-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/actor-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/actor-core/src/main/resources/local" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/actor-core/src/main/resources/public" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/actor-core/src/main/resources/public/lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-core/src/main/resources/local" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-core/src/main/resources/public" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-core/src/main/resources/public/lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service/src/main/resources/local" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service/src/main/resources/public" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-service/src/main/resources/public/lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service-player-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service-player-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service-player-interface/src/main/resources/local" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service-player-interface/src/main/resources/public" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service-player-interface/src/main/resources/public/lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service-player/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service-player/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service-player/src/main/resources/local" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service-player/src/main/resources/public" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/service-player/src/main/resources/public/lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/src/main/resources/local" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/src/main/resources/public" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/src/main/resources/public/lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/local" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/public" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/public/lib" charset="UTF-8" />
+  </component>
+</project>
